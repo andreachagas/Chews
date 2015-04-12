@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="co.chagas.chews.ViewRestaurantActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/editItem"
+        android:title="@string/menuitem_edit_restaurant"
+        android:orderInCategory="2"
+        android:alphabeticShortcut="e"
+        android:titleCondensed="@string/menuitem_edit_restaurant"
+></item>
+    <item android:id="@+id/deleteItem"
+        android:title="@string/menuitem_delete_restaurant"
+        android:orderInCategory="3"
+        android:alphabeticShortcut="d"
+        android:titleCondensed="@string/menuitem_delete_restaurant"></item>
+
+</menu>

@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="co.chagas.chews.ViewRestaurantActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView">
+
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView android:id="@+id/nameLabelTextView"
+                    style="@style/RestaurantLabelTextView"
+                    android:text="@string/label_name"/>
+
+                <TextView android:id="@+id/nameTextView"
+                    style="@style/RestaurantTextView" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView android:id="@+id/typeLabelTextView"
+                    style="@style/RestaurantLabelTextView"
+                    android:text="@string/label_type"/>
+                <TextView android:id="@+id/typeTextView"
+                    style="@style/RestaurantTextView"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView android:id="@+id/addressLabelTextView"
+                    style="@style/RestaurantLabelTextView"
+                    android:text="@string/label_address"/>
+                <TextView android:id="@+id/addressTextView"
+                    style="@style/RestaurantTextView"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView android:id="@+id/drinkLabelTextView"
+                    style="@style/RestaurantLabelTextView"
+                    android:text="@string/label_drink"/>
+                <CheckBox android:id="@+id/drinkCheckBox"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView android:id="@+id/priceLabelTextView"
+                    style="@style/RestaurantLabelTextView"
+                    android:text="@string/label_price"/>
+                <RatingBar android:id="@+id/priceRatingBar"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <TextView android:id="@+id/commentLabelTextView"
+                    style="@style/RestaurantLabelTextView"
+                    android:text="@string/label_comment"/>
+                <TextView android:id="@+id/commentTextView"
+                    style="@style/RestaurantTextView"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_button"
+        android:id="@+id/saveRestaurantButton"
+        android:layout_alignBottom="@+id/scrollView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Chews</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="chews_row_name">Chews 4 Me</string>
+    <string name="chews_background">background_colour</string>
+    <string name="chews_name">Chews</string>
+    <string name="chews_button">Chews 4 Me</string>
+    <string name="plus_button">+</string>
+    <string name="list_button">List</string>
+    <string name="title_activity_restaurant">RestaurantActivity</string>
+    <string name="title_activity_view_restaurant">ViewRestaurantActivity</string>
+    <string name="title_activity_add_edit_restaurant">AddEditRestaurantActivity</string>
+    <string name="menuitem_add_restaurant">Add</string>
+    <string name="menuitem_edit_restaurant">Edit</string>
+    <string name="menuitem_delete_restaurant">Delete</string>
+    <string name="label_name">Name</string>
+    <string name="label_type">Type</string>
+    <string name="label_address">Address</string>
+    <string name="label_drink">Drinks</string>
+    <string name="label_price">Price</string>
+    <string name="label_comment">Comments</string>
+    <string name="save_button">Add</string>
+    <string name="confirm_title">Are You Sure?</string>
+    <string name="confirm_delete">This will permanently delete the restaurant</string>
+    <string name="ok">OK</string>
+    <string name="error_message">You must enter a contact name</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_delete">Delete</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_type">Type</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_drink">Drinks</string>
+    <string name="hint_price">Price</string>
+    <string name="hint_comment">Comments</string>
+    <string name="button_save_restaurant">Save</string>
+</resources>
