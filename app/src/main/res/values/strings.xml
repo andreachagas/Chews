@@ -35,4 +35,6 @@
     <string name="hint_price">Price</string>
     <string name="hint_comment">Comments</string>
     <string name="button_save_restaurant">Save</string>
+    <string name="errorTitle">Error</string>
+    <string name="errorButton">OK</string>
 </resources>
