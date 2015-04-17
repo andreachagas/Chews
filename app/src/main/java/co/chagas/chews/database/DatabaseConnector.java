@@ -103,7 +103,12 @@ public class DatabaseConnector {
             // query to create a new table named restaurants
             String createQuery = "CREATE TABLE restaurants" +
                     "(_id integer primary key autoincrement," +
-                    "name TEXT, type TEXT, address TEXT, drink integer, price integer, comment TEXT)";
+                    "name TEXT, " +
+                    "type TEXT, " +
+                    "address TEXT, " +
+                    "drink integer, " +
+                    "price integer, " +
+                    "comment TEXT)";
             db.execSQL(createQuery); // execute the query
         } // end method onCreate
 
